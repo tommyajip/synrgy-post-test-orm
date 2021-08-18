@@ -1,7 +1,7 @@
 const { books } = require('./models')
 
 const query = {
-    where: { id: 4 }
+    where: { id: 1 }
 }
 books.update({
     penulis: 'Raditya Dika'
